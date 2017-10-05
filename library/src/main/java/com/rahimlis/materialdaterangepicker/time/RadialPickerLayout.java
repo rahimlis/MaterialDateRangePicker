@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.borax12.materialdaterangepicker.time;
+package com.rahimlis.materialdaterangepicker.time;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -38,7 +38,7 @@ import android.view.accessibility.AccessibilityManager;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.FrameLayout;
 
-import com.borax12.materialdaterangepicker.R;
+import com.rahimlis.materialdaterangepicker.R;
 
 import java.util.Calendar;
 

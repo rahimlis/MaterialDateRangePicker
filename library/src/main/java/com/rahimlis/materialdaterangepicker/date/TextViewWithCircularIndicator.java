@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.borax12.materialdaterangepicker.date;
+package com.rahimlis.materialdaterangepicker.date;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -28,7 +28,7 @@ import android.support.annotation.NonNull;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import com.borax12.materialdaterangepicker.R;
+import com.rahimlis.materialdaterangepicker.R;
 
 /**
  * A text view which, when pressed or activated, displays a colored circle around the text.

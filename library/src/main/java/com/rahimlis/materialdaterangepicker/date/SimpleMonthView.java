@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.borax12.materialdaterangepicker.date;
+package com.rahimlis.materialdaterangepicker.date;
 
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
 
-public class SimpleMonthView extends com.borax12.materialdaterangepicker.date.MonthView {
+public class SimpleMonthView extends com.rahimlis.materialdaterangepicker.date.MonthView {
 
     public SimpleMonthView(Context context, AttributeSet attr, DatePickerController controller) {
         super(context, attr, controller);

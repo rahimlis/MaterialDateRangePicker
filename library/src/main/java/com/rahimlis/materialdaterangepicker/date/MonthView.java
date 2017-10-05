@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.borax12.materialdaterangepicker.date;
+package com.rahimlis.materialdaterangepicker.date;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -37,9 +37,9 @@ import android.view.View;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityNodeInfo;
 
-import com.borax12.materialdaterangepicker.R;
-import com.borax12.materialdaterangepicker.TypefaceHelper;
-import com.borax12.materialdaterangepicker.date.MonthAdapter.CalendarDay;
+import com.rahimlis.materialdaterangepicker.R;
+import com.rahimlis.materialdaterangepicker.TypefaceHelper;
+import com.rahimlis.materialdaterangepicker.date.MonthAdapter.CalendarDay;
 
 import java.security.InvalidParameterException;
 import java.util.Calendar;

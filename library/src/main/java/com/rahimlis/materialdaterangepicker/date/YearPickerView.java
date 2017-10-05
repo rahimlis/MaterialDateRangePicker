@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.borax12.materialdaterangepicker.date;
+package com.rahimlis.materialdaterangepicker.date;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -28,8 +28,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.borax12.materialdaterangepicker.R;
-import com.borax12.materialdaterangepicker.date.DatePickerDialog.OnDateChangedListener;
+import com.rahimlis.materialdaterangepicker.R;
+import com.rahimlis.materialdaterangepicker.date.DatePickerDialog.OnDateChangedListener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,7 +45,7 @@ public class YearPickerView extends ListView implements OnItemClickListener, OnD
     private YearAdapter mAdapter;
     private int mViewSize;
     private int mChildSize;
-    private com.borax12.materialdaterangepicker.date.TextViewWithCircularIndicator mSelectedView;
+    private com.rahimlis.materialdaterangepicker.date.TextViewWithCircularIndicator mSelectedView;
     private int mAccentColor;
 
     /**
@@ -86,7 +86,7 @@ public class YearPickerView extends ListView implements OnItemClickListener, OnD
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         mController.tryVibrate();
-        com.borax12.materialdaterangepicker.date.TextViewWithCircularIndicator clickedView = (com.borax12.materialdaterangepicker.date.TextViewWithCircularIndicator) view;
+        com.rahimlis.materialdaterangepicker.date.TextViewWithCircularIndicator clickedView = (com.rahimlis.materialdaterangepicker.date.TextViewWithCircularIndicator) view;
         if (clickedView != null) {
             if (clickedView != mSelectedView) {
                 if (mSelectedView != null) {
@@ -114,7 +114,7 @@ public class YearPickerView extends ListView implements OnItemClickListener, OnD
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
-            com.borax12.materialdaterangepicker.date.TextViewWithCircularIndicator v = (com.borax12.materialdaterangepicker.date.TextViewWithCircularIndicator)
+            com.rahimlis.materialdaterangepicker.date.TextViewWithCircularIndicator v = (com.rahimlis.materialdaterangepicker.date.TextViewWithCircularIndicator)
                     super.getView(position, convertView, parent);
             v.setAccentColor(mAccentColor);
             v.requestLayout();

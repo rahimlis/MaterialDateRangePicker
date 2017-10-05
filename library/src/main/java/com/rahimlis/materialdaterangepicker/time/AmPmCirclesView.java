@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.borax12.materialdaterangepicker.time;
+package com.rahimlis.materialdaterangepicker.time;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -25,8 +25,8 @@ import android.graphics.Typeface;
 import android.util.Log;
 import android.view.View;
 
-import com.borax12.materialdaterangepicker.R;
-import com.borax12.materialdaterangepicker.Utils;
+import com.rahimlis.materialdaterangepicker.R;
+import com.rahimlis.materialdaterangepicker.Utils;
 
 import java.text.DateFormatSymbols;
 

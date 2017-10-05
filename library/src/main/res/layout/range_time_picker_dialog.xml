@@ -72,7 +72,7 @@
                         android:layout_height="@dimen/mdtp_header_height"
                         android:layout_gravity="center" />
 
-                    <com.borax12.materialdaterangepicker.time.RadialPickerLayout
+                    <com.rahimlis.materialdaterangepicker.time.RadialPickerLayout
                         android:id="@+id/time_picker"
                         android:layout_width="@dimen/mdtp_picker_dimen"
                         android:layout_height="@dimen/mdtp_time_picker_height"
@@ -107,7 +107,7 @@
                         android:layout_height="@dimen/mdtp_header_height"
                         android:layout_gravity="center" />
 
-                    <com.borax12.materialdaterangepicker.time.RadialPickerLayout
+                    <com.rahimlis.materialdaterangepicker.time.RadialPickerLayout
                         android:id="@+id/time_picker_end"
                         android:layout_width="@dimen/mdtp_picker_dimen"
                         android:layout_height="@dimen/mdtp_time_picker_height"

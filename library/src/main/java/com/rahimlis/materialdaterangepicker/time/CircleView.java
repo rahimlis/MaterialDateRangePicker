@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.borax12.materialdaterangepicker.time;
+package com.rahimlis.materialdaterangepicker.time;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -23,7 +23,7 @@ import android.graphics.Paint;
 import android.util.Log;
 import android.view.View;
 
-import com.borax12.materialdaterangepicker.R;
+import com.rahimlis.materialdaterangepicker.R;
 
 /**
  * Draws a simple white circle on which the numbers will be drawn.

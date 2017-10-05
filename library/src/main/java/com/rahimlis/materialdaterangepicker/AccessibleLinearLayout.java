@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.borax12.materialdaterangepicker;
+package com.rahimlis.materialdaterangepicker;
 
 import android.content.Context;
 import android.util.AttributeSet;
