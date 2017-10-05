@@ -1,14 +1,13 @@
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-MaterialDateRangePicker-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/2501)
+[![](https://jitpack.io/v/rahimlis/MaterialDateRangePicker.svg)](https://jitpack.io/#rahimlis/MaterialDateRangePicker)
 
-[ ![Download](https://api.bintray.com/packages/borax12/maven/material-datetime-rangepicker/images/download.svg) ](https://bintray.com/borax12/maven/material-datetime-rangepicker/_latestVersion)
 
 Material Date and Time Picker with Range Selection
 ======================================================
-
+This package adds various functionality to MaterialDateRangePicker created by borax12. 
 
 Credit to the original amazing material date picker library by wdullaer - https://github.com/wdullaer/MaterialDateTimePicker
 
-##Adding to your project
+## Adding to your project
 
 Add the jcenter repository information in your build.gradle file like this
 ```java
@@ -17,28 +16,27 @@ repositories {
   jcenter()
 }
 
-
 dependencies {
-  compile 'com.borax12.materialdaterangepicker:library:1.9'
+	compile 'com.github.rahimlis:MaterialDateRangePicker:v1.9.1'
 }
 
 ```
 
+## Update
+--added OnTabChangeListener
+--added getters for TimePickers
 
-##Update
---added highlighted range selection method
---added portuguese translation
---add end time selection in TimePicker
+## Date Selection
 
-##Date Selection
+From                       | To              
+:-------------------------:|:-------------------------:
+![](/screenshots/2.png)    |  ![](/screenshots/1.png)    
 
-![FROM](/screenshots/2.png?raw=true)
-![TO](/screenshots/1.png?raw=true)
+## Time Selection
 
-##Time Selection
-
-![FROM](/screenshots/3.png?raw=true)
-![TO](/screenshots/4.png?raw=true)
+From                       | To              
+:-------------------------:|:-------------------------:
+![](/screenshots/3.png)    |  ![](/screenshots/4.png)
 
 Support for Android 4.0 and up.
 
@@ -108,6 +106,3 @@ tpd.show(getFragmentManager(), "Timepickerdialog");
 
 For other documentation regarding theming , handling orientation changes , and callbacks - check out the original documentation - https://github.com/wdullaer/MaterialDateTimePicker
 
-TODO
-----
-1. Custom Colors in Date and Time Picker - including indicators
